@@ -33,6 +33,14 @@ struct Node
     bool operator >= (const Node& node) { return data >= node->data; }
 };
 
+
+/*
+ Properties:
+ 1: Every node is either BLACK or RED
+ 2: The root is BLACK
+ 3: From any node, the path between the node to its descendents nodes contains the same amount of BLACK nodes
+ 4: If a node is RED, both its childs are BLACK
+ */
 template <typename T>
 class RedBlackTree {
 
@@ -44,9 +52,10 @@ public:
 protected:
     Node<T> *root;
 private:
-    Node<T>*& sibling(Node<T> *node);
-    Node<T>* uncle(Node<T> *node);
-    Node<T>* grandparent(Node<T> *node);
+    Node<T>* sibling(Node<T> *node) const;
+    Node<T>* uncle(Node<T> *node) const;
+    Node<T>* grandparent(Node<T> *node) const;
+    void swapValues(Node<T> *&node1, Node<T> *&node2);
 };
 
 #endif /* RebBlackTree_hpp */

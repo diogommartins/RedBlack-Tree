@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6655B9731BD5463E008B65FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6655B9721BD5463E008B65FD /* main.cpp */; };
+		6655B97B1BD5469B008B65FD /* RebBlackTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6655B9791BD5469B008B65FD /* RebBlackTree.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		6655B96F1BD5463E008B65FD /* Red Black Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Red Black Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6655B9721BD5463E008B65FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6655B9791BD5469B008B65FD /* RebBlackTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RebBlackTree.cpp; sourceTree = "<group>"; };
+		6655B97A1BD5469B008B65FD /* RebBlackTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RebBlackTree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				6655B9721BD5463E008B65FD /* main.cpp */,
+				6655B9791BD5469B008B65FD /* RebBlackTree.cpp */,
+				6655B97A1BD5469B008B65FD /* RebBlackTree.hpp */,
 			);
 			path = "Red Black Tree";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6655B9731BD5463E008B65FD /* main.cpp in Sources */,
+				6655B97B1BD5469B008B65FD /* RebBlackTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
